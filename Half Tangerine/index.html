@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Half Tangerine | Home</title>
+
+    <!--CSS Stylesheets-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!--Font Awesome / Recordar agregar fa antes del código del ícono para que funcione-->
+    <script
+      src="https://kit.fontawesome.com/94002027c2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Bootstrap
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+
+    <!--Javascript-->
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Background Image -->
+    <!-- <div class="index-img">
+      <img
+        class="background-img"
+        src="img/halftangerineyellow.jpg"
+        alt="background-image"
+      />
+    </div> -->
+    <header class="header bg-img-index">
+      <div class="header-layout page-width">
+        <div class="menu-main">
+          <!--Nav Bar-->
+          <nav class="navbar-nav">
+            <ul class="nav-ul">
+              <li class="nav-li">
+                <a class="nav-a active" href="index.html">Home</a>
+              </li>
+              <li class="nav-li">
+                <a class="nav-a" href="about.html">About</a>
+              </li>
+              <li class="nav-li">
+                <a class="nav-a" href="contact.html">Contact</a>
+              </li>
+            </ul>
+
+            <!-- Navbar RRSS Icons -->
+
+            <ul class="nav-social">
+              <li class="nav-social-li">
+                <a
+                  class="nav-social-a"
+                  href="https://www.instagram.com/half_tangerine/"
+                  target="_blank"
+                  ><i class="fa fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li class="nav-social-li">
+                <a
+                  class="nav-social-a"
+                  href="https://www.facebook.com/HalfTangerine/"
+                  target="_blank"
+                  ><i class="fa fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-social-li">
+                <a
+                  class="nav-social-a"
+                  href="https://twitter.com/half_tangerine"
+                  target="_blank"
+                  ><i class="fa fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-social-li">
+                <a
+                  class="nav-social-a"
+                  href="https://www.youtube.com/c/HalfTangerineMusic"
+                  target="_blank"
+                  ><i class="fa fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li class="nav-social-li">
+                <a
+                  class="nav-social-a"
+                  href="https://open.spotify.com/artist/7Ewpb2yhzkWWJBEDb7K0ln?si=C7pnTgeJTeqVYpOTStPi6A"
+                  target="_blank"
+                  ><i class="fa fa-brands fa-spotify"></i>
+                </a>
+              </li>
+              <li class="nav-social-li">
+                <a
+                  class="nav-social-a"
+                  href="https://music.apple.com/us/artist/half-tangerine/1168064478"
+                  target="_blank"
+                  ><i class="fab fa-itunes"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <h1 class="logo-index">
+          <span class="visually-hidden"> Half Tangerine </span>
+          <a href="index.html"
+            ><img class="ht-logo" src="img/logo-white.png" alt="logo-blanco" />
+          </a>
+        </h1>
+      </div>
+    </header>
+
+    <!-- Featured Music 
+
+    <section id="featured-music" class="featured-music">
+      <div class="container-music">
+        <div class="content-cover">
+          <figure class="cover-img">
+            <a href="https://halftangerine.bandcamp.com/album/85" target="_blank" alt="EP 85"><img class="cover-art" src="img/ht85.png"></a>
+          </figure>
+        </div> 
+
+    <div class="content-music">
+          <figure class="content-text">
+            <div class="banner-headline release-date">FEB 20TH 2023</div>
+              <h3 class="media-title">85</h3>
+              <div><a class="stream-a" href="https://halftangerine.bandcamp.com/album/85" data-replace="STREAM / DOWNLOAD" target="_blank"><span>STREAM / DOWNLOAD</span></a></div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section> -->
+<section id="releases-carousel" class="section">
+      <div class="releases">
+        <div class="releases-container">
+          <div id="release-85" class="release-85 carousel slideshow-banner slide-section" data-carousel>
+            <div class="controls">
+              <button type="button" class="carousel-button carousel-button-prev" name="prev" aria-label="Previous Slide" data-carousel-button="prev">&#8678;</button> 
+              <button type="button" class="carousel-button carousel-button-next" name="next" aria-label="Next Slide" data-carousel-button="next">&#8680;</button>
+              <ul class="dots" data-carousel-dots>
+                <li class="active dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+              </ul>
+            </div>
+             <ul class="slide-media" data-slides>
+                <li class="slide" data-active>
+                  <div class="slide-grid">
+                    <div class="grid-item"> 
+                      <img class="cover-img" src="img/ht85.png" />
+                    </div>
+                    <div class="slide-text grid-item">  
+                      <div class="banner-headline release-date">
+                        FEB 20TH 2023
+                      </div>
+                      <h3 class="media-title"><span>85</span></h3>
+                      <div class="media-a">
+                        <a
+                          class="stream-a"
+                          href="https://li.sten.to/ht-eightyfive"
+                          data-replace="STREAM / DOWNLOAD"
+                          target="_blank"
+                          ><span>STREAM / DOWNLOAD</span>
+                        </a>
+                      </div>
+                    </div> 
+                  </div>   
+                </li>
+                <li class="slide">
+                  <div class="slide-grid">
+                    <div class="grid-item">
+                      <img class="cover-img" src="img/jupiter-square.jpg" /></img>
+                    </div>
+                    <div class="slide-text grid-item">  
+                      <div class="banner-headline release-date">
+                        OCT 24TH 2022
+                      </div>
+                      <h3 class="media-title"><span>JUPITER</span></h3>
+                      <div class="media-a">
+                        <a
+                          class="stream-a"
+                          href="https://li.sten.to/jupiter"
+                          data-replace="STREAM / DOWNLOAD"
+                          target="_blank"
+                          ><span>STREAM / DOWNLOAD</span>
+                        </a>
+                      </div>
+                    </div> 
+                  </div>   
+                </li>  
+                <li class="slide">
+                  <div class="slide-grid">
+                    <div class="grid-item">
+                      <img class="cover-img" src="img/WAH-square.jpg" /></img>
+                    </div>
+                    <div class="slide-text grid-item">  
+                      <div class="banner-headline release-date">
+                        SEP 2ND 2022
+                      </div>
+                      <h3 class="media-title"><span>WORDS ARE HEAVY</span></h3>
+                      <div class="media-a">
+                        <a
+                          class="stream-a"
+                          href="https://li.sten.to/words-are-heavy"
+                          data-replace="STREAM / DOWNLOAD"
+                          target="_blank"
+                          ><span>STREAM / DOWNLOAD</span>
+                        </a>
+                      </div>
+                    </div> 
+                  </div>   
+                </li>   
+                <li class="slide">
+                  <div class="slide-grid">
+                    <div class="grid-item">
+                      <img class="cover-img" src="img/ht-nuf.jpg" /></img>
+                    </div>
+                    <div class="slide-text grid-item">  
+                      <div class="banner-headline release-date">
+                        APR 6TH 2017
+                      </div>
+                      <h3 class="media-title"><span>NOTHING UNTIL FINISHED</span></h3>
+                      <div class="media-a">
+                        <a
+                          class="stream-a"
+                          href="https://li.sten.to/nothing-until-finished"
+                          data-replace="STREAM / DOWNLOAD"
+                          target="_blank"
+                          ><span>STREAM / DOWNLOAD</span>
+                        </a>
+                      </div>
+                    </div> 
+                  </div>   
+                </li>                                                       
+                <li class="slide">
+                  <div class="slide-grid">
+                    <div class="grid-item">
+                      <img class="cover-img" src="img/high-on-you.png" /></img>
+                    </div>
+                    <div class="slide-text grid-item">  
+                      <div class="banner-headline release-date">
+                        OCT 27TH 2016
+                      </div>
+                      <h3 class="media-title"><span>HIGH ON YOU</span></h3>
+                      <div class="media-a">
+                        <a
+                          class="stream-a"
+                          href="https://li.sten.to/high-on-you"
+                          data-replace="STREAM / DOWNLOAD"
+                          target="_blank"
+                          ><span>STREAM / DOWNLOAD</span>
+                        </a>
+                      </div>
+                    </div> 
+                  </div>   
+                </li>                         
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+      <footer class="footer-container">
+        <div class="footer-content">
+          <ul class="footer-social footer-ul">
+            <li class="footer-social-li">
+              <a
+                class="footer-social-a"
+                href="https://www.instagram.com/half_tangerine/"
+                target="_blank"
+                ><i class="fa fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li class="footer-social-li">
+              <a
+                class="footer-social-a"
+                href="https://www.facebook.com/HalfTangerine/"
+                target="_blank"
+                ><i class="fa fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="footer-social-li">
+              <a
+                class="footer-social-a"
+                href="https://twitter.com/half_tangerine"
+                target="_blank"
+                ><i class="fa fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="footer-social-li">
+              <a
+                class="footer-social-a"
+                href="https://www.youtube.com/c/HalfTangerineMusic"
+                target="_blank"
+                ><i class="fa fa-brands fa-youtube"></i>
+              </a>
+            </li>
+            <li class="footer-social-li">
+              <a
+                class="footer-social-a"
+                href="https://open.spotify.com/artist/7Ewpb2yhzkWWJBEDb7K0ln?si=C7pnTgeJTeqVYpOTStPi6A"
+                target="_blank"
+                ><i class="fa fa-brands fa-spotify"></i>
+              </a>
+            </li>
+            <li class="footer-social-li">
+              <a
+                class="nav-social-a"
+                href="https://music.apple.com/us/artist/half-tangerine/1168064478"
+                target="_blank"
+                ><i class="fab fa-itunes"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-text">
+          <p>All material © Half Tangerine 2023. All rights reserved.</p>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
